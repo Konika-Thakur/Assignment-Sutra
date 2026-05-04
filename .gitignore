@@ -1,0 +1,14 @@
+ai_env/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.DS_Store
+.assessment_tmp/
+test_outputs/venv/
+.venv/
+__pycache__/
+*.pyc
+test_outputs/
+*.mp4
+*.zip

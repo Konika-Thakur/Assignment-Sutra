@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-ollama
+langchain-qdrant
+qdrant-client
+sentence-transformers
+openai-whisper
+pymupdf
+python-pptx
+beautifulsoup4
+requests
+playwright

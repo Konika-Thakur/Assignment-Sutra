@@ -1,0 +1,15 @@
+MediTrack Fraud Shield
+Problem: small online merchants lose revenue to fraudulent transactions and often receive alerts too late to prevent chargebacks.
+
+Solution: MediTrack Fraud Shield scores every payment in real time and gives merchants an explainable risk assessment before fulfillment.
+
+Core features:
+- Real-time anomaly detection for card transactions
+- Merchant dashboard with live fraud alerts
+- Explainable AI reasoning for each flagged transaction
+- Multi-currency fraud scoring
+- Stripe integration for payment events
+
+Technical approach: the system uses a gradient boosting fraud model, feature extraction from transaction metadata, and an alerting layer for merchant dashboards.
+
+Implementation claim: the prototype includes model-based transaction scoring, fraud thresholding, and reusable detector code for scoring transaction features.

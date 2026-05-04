@@ -1,0 +1,15 @@
+EduBot Adaptive Tutor
+Problem: students need personalized explanations and practice, but teachers and parents cannot manually tailor every lesson.
+
+Solution: EduBot creates adaptive learning paths, explains topics at the student's level, and generates quizzes for practice.
+
+Core features:
+- AI-generated explanations
+- Quiz generation for selected topics
+- Personalized difficulty adaptation
+- Student progress tracking
+- Weekly parent progress reports
+
+Technical approach: the system wraps an LLM client to generate explanations and assessments, with planned analytics for progress tracking and reporting.
+
+Implementation claim: the prototype includes code for explanation generation and quiz generation, while large-scale concurrency and automatic parent reports remain unverified.

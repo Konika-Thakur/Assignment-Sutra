@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MediTrack Fraud Shield Prototype</title>
+  </head>
+  <body>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="reports.html">Reports</a>
+    </nav>
+
+    <main>
+      <h1>MediTrack Fraud Shield</h1>
+      <p>Real-time fraud scoring for card transactions with explainable merchant alerts.</p>
+
+      <section>
+        <h2>Score a Transaction</h2>
+        <form action="/score" method="post">
+          <label>
+            Amount
+            <input name="amount" type="number" placeholder="Transaction amount">
+          </label>
+          <label>
+            Currency
+            <select name="currency">
+              <option>USD</option>
+              <option>EUR</option>
+              <option>INR</option>
+            </select>
+          </label>
+          <label>
+            Merchant ID
+            <input name="merchant_id" type="text" placeholder="Merchant ID">
+          </label>
+          <button type="submit">Analyze Fraud Risk</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Live Alert Preview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Transaction</th>
+              <th>Risk</th>
+              <th>Explanation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TX-1042</td>
+              <td>High</td>
+              <td>Unusual amount and new device fingerprint.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+Our platform uses real-time anomaly detection to flag fraudulent transactions.
+We built a machine learning pipeline that processes 10,000 transactions per second.
+The system integrates with Stripe and supports multi-currency fraud scoring.
+We trained a gradient boosting model on 5 million labeled transactions.
+The dashboard gives merchants live alerts and explainable AI reasoning for each flag.
